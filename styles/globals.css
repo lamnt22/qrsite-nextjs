@@ -1,0 +1,36 @@
+html,
+body {
+  min-height: 100%;
+}
+
+#__next {
+  height: 100%;
+}
+
+code {
+  font-family: 'Inter', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  padding: 0.1rem 0.4rem;
+  font-size: 90%;
+  color: #d400ff;
+  border-radius: 0.1335rem;
+}
+code:not([class*='language-']):before,
+code:not([class*='language-']):after {
+  content: '`';
+}
+code[class*='language-'] {
+  padding: 0;
+}
+.ql-toolbar.ql-snow {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.ql-container.ql-snow {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.quill-error {
+  border: 1px solid #FF4C51;
+  border-radius: 5px;
+}

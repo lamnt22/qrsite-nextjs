@@ -1,0 +1,25 @@
+.css-zgp0bx-MuiDrawer-docked .MuiDrawer-paper {
+    border-right: 1px solid #DDDDDD !important;
+}
+
+/* .css-n2n0ek {
+    top: 50% !important;
+    width: 20px !important;
+    height: 20px !important;
+    background-image: url(../images/logos/open-menu.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+} */
+
+.css-1lmplq1-MuiBackdrop-root-MuiModal-backdrop {
+    opacity: 0 !important;
+    position: unset !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .layout-page-content {
+        height: 800px !important;
+        overflow: auto !important;
+        margin-left: 330px !important;
+    }
+}
